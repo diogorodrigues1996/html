@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label </title>
+    <link rel="stylesheet" href="novo.css">
+</head>
+<body>
+    <h1>
+        formulario usando label  
+    </h1>
+    <form action="card.php" method="post" autocomplete="on"></form>
+    <label for="inome">nome</label><br>
+    <input type="text" name="nome" id="inome" maxlength="10" minlength="8" size="10" required  placeholder="nome do usuario " autocomplete="username" ><br>
+    <label for="isenha"> senha </label><br>
+    <input type="password" name=" senha" id="isenha" required minlength="10" maxlength="20" size="10" placeholder="senha do usuario" autocomplete="new-password"><br>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+</body>
+</html>
