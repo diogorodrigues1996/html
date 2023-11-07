@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <fieldset>
+        <p>
+            <form action="cadastro.php" method="post">
+            
+                    <label for="times">times de futebol</label>
+                    <select name="times" id="times">
+                    <optgroup label="times">
+                        <option value="Sao">Sao paulo</option>
+                        <option value="Fla">Flamengo</option>
+                        <option value="BA">Bahia</option>
+                        <option value="Cruzeiro">cruzeiro</option>
+                        <option value="Corinthians">Corinthians</option>
+                    </optgroup>
+                    
+                </select>
+                    
+        </p>
+            
+    </fieldset>
+
+    <fieldset>
+
+        <form action="cadastro.php" method="post">
+            <label for="profissao">jogador</label>
+            <input type="text" name="profissao" id="jogador" list="ijogador">
+            <datalist id="ijogador">
+                <option value="nestor">nestor</option>
+                <option value="dudu">dudu</option>
+                <option value="yuri">yuri</option>
+
+
+            </datalist>
+
+            <label for="mensagem">mensagem</label>
+            <textarea name="tetx" id="texto" cols="30" rows="10"></textarea>
+
+    </fieldset>
+    
+</body>
+</html>

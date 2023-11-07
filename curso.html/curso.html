@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <h1> fomulario de agendamentos</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+
+        <label for="usuario ">usuario</label>
+        <input type="text" name="usuario" id="isuario" required  minlength="10" maxlength="20" placeholder="nome do usuario" size="10">
+    </p>
+    <p>
+        <label for="senha">senha</label>
+        <input type="password" name="senha" id="isenha" required minlength="8"  maxlength="15" size="10" placeholder="senha ">
+    </p>
+
+    <p>
+        <label for="data"> agendamento</label>
+        <input type="date" name="data" id="idata" value="2020-08-15" required>
+    </p>
+    <p>
+        <label for="horario ">horario</label>
+        <input type="time" name="horario" id="horario " value="10:00" required>
+    </p>
+    <p>
+        <label for="nota">avaliacao </label>
+        <input type="number" name="nota" id="inota" step="0.2" value="3">
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+    </p>
+    
+    <p>
+        <input type="reset" value="limpar">
+    </p>
+</body>
+</html>

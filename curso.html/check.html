@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <h1>novo formulario </h1>
+    
+    <fieldset>
+        <legend> dados </legend>
+        <p>
+            <input type="radio" name="sx" id="sxmas" checked>
+            <label for="sxmas">masculino</label><br>
+        </p>
+        <p>
+            <input type="radio" name="sx" id="sxfem">
+            <label for="sxfem">feminino</label><br>
+        </p>
+
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>esportes</legend>
+        <p>
+            <input type="checkbox" name="fut" id="ifutebol">
+            <label for="futebol">futebol</label>
+        </p>
+        <p>
+            <input type="checkbox" name="basq" id="ibasq" checked>
+            <label for="basquete">basquete</label>
+        </p>
+        <p>
+            <input type="checkbox" name="tenis" id="itenis">
+            <label for="tenis">tenis </label>
+        </p>
+       <input type="submit" value="enviar">
+       <input type="reset" value="limpar">
+    </fieldset>
+
+</body>
+</html>

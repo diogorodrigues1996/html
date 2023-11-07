@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <legend>
+        novos dados 
+    </legend>
+    <fieldset>
+        <form action="card.php" method="get" autocomplete="on">
+
+            <p>
+                <label for="numero">numero</label>
+                <input type="range" name="num" id="inum" max="10" mix="1" value="5" oninput="ival.innerHTML = Number(inum.value)">
+                <output id="ival">5</output>
+
+            </p>
+            
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+    
+
+
+    </fieldset>
+</body>
+</html>
